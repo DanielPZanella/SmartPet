@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 500px;
+    width: 100%;
+}
+
+.container-carrossel{
+    display:flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+    height: 375px;
+    width: 100%;
+}
+
+.imgc {
+    object-fit: cover;
+    height: 500px;
+    width: 100%;
+}

@@ -1,0 +1,104 @@
+.container{
+    display: flex;
+    justify-content:center;
+    margin-top: 3%;
+
+}
+main{
+    height:auto;
+}
+.formulario{
+    width: 500px;
+    padding: 30px;
+    border:1px solid #ccc;
+    background-color: rgba(255, 255, 255, 0.637);
+    text-align: left;
+    padding: 3% ;
+    border-radius: 10%;
+    
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+    color: rgb(40, 55, 121);
+    text-align: center;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding: 10 0 0 5;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+    padding: 20 20 0 0;
+}
+
+input[type=tel],
+textarea{
+
+    width: 55%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius:  20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+    input[type=text],
+    input[type=email],
+    textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius:  20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 90px;
+    resize: none;
+}
+.enviar{
+    display: block;
+    background-color: rgb(177, 223, 235);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.enviar:hover{
+
+    background-color: rgb(0, 184, 184);
+    color: blue;
+}
+footer{
+
+
+    margin-top: 5%;
+}
+#erro_enviado{
+    display: none;
+
+}
+.error{
+ border-color: red;
+ color: red;
+
+}
