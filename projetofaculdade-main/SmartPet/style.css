@@ -214,6 +214,7 @@ footer{
     width: 100%;
     min-height: 250px;
     display: flex;
+    
 }
 
 footer .boxs{
@@ -316,11 +317,13 @@ footer .boxs:nth-child(4){
     }
 
     footer{
+        margin-top: 100%;
         flex-direction: column;
     }
     footer .boxs{
         width: 100%;
         text-align: center;
+        
     }
     footer .boxs:nth-child(4){
         width: 100%;
@@ -367,5 +370,33 @@ footer .boxs:nth-child(4){
     100%{
         transform: translate3d(0,0px,0);
     }
+
+}
+.Psobre{
+
+text-align: center;
+font-size: 20px;
+font-family: 'Cormorant Garamond', serif;
+max-width: 40%;
+margin-left: 15%;
+
+}
+.containerSobre{
+    height: 70%;
+    max-width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 3%;
+    padding: auto;
+    
+}
+.footer1{
+
+    margin-top: 10%;
+}
+
+.imgSobre{
+max-width: 35%;
 
 }

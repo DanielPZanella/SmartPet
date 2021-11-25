@@ -6,6 +6,7 @@
 }
 main{
     height:auto;
+    padding: auto;
 }
 .formulario{
     width: 500px;
@@ -89,7 +90,6 @@ textarea{
     color: blue;
 }
 footer{
-
 
     margin-top: 5%;
 }
